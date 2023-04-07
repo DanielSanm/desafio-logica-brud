@@ -64,7 +64,7 @@ public class LogicaNumeros {
 				}
 			}
 
-			if (numMaiorAnteDef == false) {
+			if (!numMaiorAnteDef) {
 				numMaiorAnte = numMaior;
 				numMaiorAnteDef = true;
 			} else if (numMaiorAnte < numMaior) {
